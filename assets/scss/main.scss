@@ -1,0 +1,21 @@
+// Import all Sass partials
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/forms';
+@import 'pages/home';
+@import 'pages/contact';
+@import 'themes/default';
+@import 'pages/gallery';
+@import 'pages/studio';
+@import 'pages/tarifs';
+@import 'pages/blog';
+@import 'pages/apropos';

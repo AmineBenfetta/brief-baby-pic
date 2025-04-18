@@ -1,0 +1,61 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  text-align: center;
+  padding: 0.5rem 0.5rem; // réduit encore le padding vertical
+  align-items: center;
+  max-height: 23vh;
+
+  .contact_footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.3rem; // réduit l’espace sous le bloc
+    
+
+    img {
+      width: 80px;
+      height: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+    }
+  }
+
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3rem; // limite la marge
+    height: 20vh;
+    
+
+    a {
+      color: #ccc;
+      margin: 0 0.4rem;
+      text-decoration: none;
+      align-self: flex-end;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  p {
+    color: white;
+    margin: 0.2rem 0; // très peu de marge
+  }
+
+  h4 {
+    color: #ccc;
+    margin: 0.2rem 0;
+  }
+}
+#li-footer {
+  color: white;
+}
